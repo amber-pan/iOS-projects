@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96ACA4682C6174A9009DB2F9 /* TwoTabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4672C6174A9009DB2F9 /* TwoTabsApp.swift */; };
+		96ACA46A2C6174A9009DB2F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4692C6174A9009DB2F9 /* ContentView.swift */; };
+		96ACA46C2C6174AB009DB2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ACA46B2C6174AB009DB2F9 /* Assets.xcassets */; };
+		96ACA46F2C6174AB009DB2F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ACA46E2C6174AB009DB2F9 /* Preview Assets.xcassets */; };
+		96ACA4792C6174AB009DB2F9 /* TwoTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4782C6174AB009DB2F9 /* TwoTabsTests.swift */; };
+		96ACA4832C6174AB009DB2F9 /* TwoTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4822C6174AB009DB2F9 /* TwoTabsUITests.swift */; };
+		96ACA4852C6174AB009DB2F9 /* TwoTabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4842C6174AB009DB2F9 /* TwoTabsUITestsLaunchTests.swift */; };
+		96ACA4952C617781009DB2F9 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4942C617781009DB2F9 /* TabItem.swift */; };
+		96ACA4972C6177EB009DB2F9 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4962C6177EB009DB2F9 /* TabViewModel.swift */; };
+		96ACA4992C617883009DB2F9 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4982C617883009DB2F9 /* FirstView.swift */; };
+		96ACA49B2C6178ED009DB2F9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA49A2C6178ED009DB2F9 /* SecondView.swift */; };
+		96ACA49D2C617979009DB2F9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA49C2C617979009DB2F9 /* TabBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96ACA4752C6174AB009DB2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96ACA45C2C6174A9009DB2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ACA4632C6174A9009DB2F9;
+			remoteInfo = TwoTabs;
+		};
+		96ACA47F2C6174AB009DB2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96ACA45C2C6174A9009DB2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ACA4632C6174A9009DB2F9;
+			remoteInfo = TwoTabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96ACA4642C6174A9009DB2F9 /* TwoTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ACA4672C6174A9009DB2F9 /* TwoTabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTabsApp.swift; sourceTree = "<group>"; };
+		96ACA4692C6174A9009DB2F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96ACA46B2C6174AB009DB2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96ACA46E2C6174AB009DB2F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96ACA4742C6174AB009DB2F9 /* TwoTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ACA4782C6174AB009DB2F9 /* TwoTabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTabsTests.swift; sourceTree = "<group>"; };
+		96ACA47E2C6174AB009DB2F9 /* TwoTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ACA4822C6174AB009DB2F9 /* TwoTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTabsUITests.swift; sourceTree = "<group>"; };
+		96ACA4842C6174AB009DB2F9 /* TwoTabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96ACA4942C617781009DB2F9 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		96ACA4962C6177EB009DB2F9 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		96ACA4982C617883009DB2F9 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		96ACA49A2C6178ED009DB2F9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		96ACA49C2C617979009DB2F9 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96ACA4612C6174A9009DB2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ACA4712C6174AB009DB2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ACA47B2C6174AB009DB2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96ACA45B2C6174A9009DB2F9 = {
+			isa = PBXGroup;
+			children = (
+				96ACA4662C6174A9009DB2F9 /* TwoTabs */,
+				96ACA4772C6174AB009DB2F9 /* TwoTabsTests */,
+				96ACA4812C6174AB009DB2F9 /* TwoTabsUITests */,
+				96ACA4652C6174A9009DB2F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96ACA4652C6174A9009DB2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA4642C6174A9009DB2F9 /* TwoTabs.app */,
+				96ACA4742C6174AB009DB2F9 /* TwoTabsTests.xctest */,
+				96ACA47E2C6174AB009DB2F9 /* TwoTabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96ACA4662C6174A9009DB2F9 /* TwoTabs */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA4672C6174A9009DB2F9 /* TwoTabsApp.swift */,
+				96ACA4692C6174A9009DB2F9 /* ContentView.swift */,
+				96ACA46B2C6174AB009DB2F9 /* Assets.xcassets */,
+				96ACA4912C6175E1009DB2F9 /* Model */,
+				96ACA4922C617661009DB2F9 /* View */,
+				96ACA4932C61766C009DB2F9 /* ViewModel */,
+				96ACA46D2C6174AB009DB2F9 /* Preview Content */,
+			);
+			path = TwoTabs;
+			sourceTree = "<group>";
+		};
+		96ACA46D2C6174AB009DB2F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA46E2C6174AB009DB2F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96ACA4772C6174AB009DB2F9 /* TwoTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA4782C6174AB009DB2F9 /* TwoTabsTests.swift */,
+			);
+			path = TwoTabsTests;
+			sourceTree = "<group>";
+		};
+		96ACA4812C6174AB009DB2F9 /* TwoTabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA4822C6174AB009DB2F9 /* TwoTabsUITests.swift */,
+				96ACA4842C6174AB009DB2F9 /* TwoTabsUITestsLaunchTests.swift */,
+			);
+			path = TwoTabsUITests;
+			sourceTree = "<group>";
+		};
+		96ACA4912C6175E1009DB2F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA4942C617781009DB2F9 /* TabItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96ACA4922C617661009DB2F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA4982C617883009DB2F9 /* FirstView.swift */,
+				96ACA49A2C6178ED009DB2F9 /* SecondView.swift */,
+				96ACA49C2C617979009DB2F9 /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96ACA4932C61766C009DB2F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96ACA4962C6177EB009DB2F9 /* TabViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96ACA4632C6174A9009DB2F9 /* TwoTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ACA4882C6174AB009DB2F9 /* Build configuration list for PBXNativeTarget "TwoTabs" */;
+			buildPhases = (
+				96ACA4602C6174A9009DB2F9 /* Sources */,
+				96ACA4612C6174A9009DB2F9 /* Frameworks */,
+				96ACA4622C6174A9009DB2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoTabs;
+			productName = TwoTabs;
+			productReference = 96ACA4642C6174A9009DB2F9 /* TwoTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96ACA4732C6174AB009DB2F9 /* TwoTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ACA48B2C6174AB009DB2F9 /* Build configuration list for PBXNativeTarget "TwoTabsTests" */;
+			buildPhases = (
+				96ACA4702C6174AB009DB2F9 /* Sources */,
+				96ACA4712C6174AB009DB2F9 /* Frameworks */,
+				96ACA4722C6174AB009DB2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ACA4762C6174AB009DB2F9 /* PBXTargetDependency */,
+			);
+			name = TwoTabsTests;
+			productName = TwoTabsTests;
+			productReference = 96ACA4742C6174AB009DB2F9 /* TwoTabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96ACA47D2C6174AB009DB2F9 /* TwoTabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ACA48E2C6174AB009DB2F9 /* Build configuration list for PBXNativeTarget "TwoTabsUITests" */;
+			buildPhases = (
+				96ACA47A2C6174AB009DB2F9 /* Sources */,
+				96ACA47B2C6174AB009DB2F9 /* Frameworks */,
+				96ACA47C2C6174AB009DB2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ACA4802C6174AB009DB2F9 /* PBXTargetDependency */,
+			);
+			name = TwoTabsUITests;
+			productName = TwoTabsUITests;
+			productReference = 96ACA47E2C6174AB009DB2F9 /* TwoTabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96ACA45C2C6174A9009DB2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					96ACA4632C6174A9009DB2F9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					96ACA4732C6174AB009DB2F9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 96ACA4632C6174A9009DB2F9;
+					};
+					96ACA47D2C6174AB009DB2F9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 96ACA4632C6174A9009DB2F9;
+					};
+				};
+			};
+			buildConfigurationList = 96ACA45F2C6174A9009DB2F9 /* Build configuration list for PBXProject "TwoTabs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96ACA45B2C6174A9009DB2F9;
+			productRefGroup = 96ACA4652C6174A9009DB2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96ACA4632C6174A9009DB2F9 /* TwoTabs */,
+				96ACA4732C6174AB009DB2F9 /* TwoTabsTests */,
+				96ACA47D2C6174AB009DB2F9 /* TwoTabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96ACA4622C6174A9009DB2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ACA46F2C6174AB009DB2F9 /* Preview Assets.xcassets in Resources */,
+				96ACA46C2C6174AB009DB2F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ACA4722C6174AB009DB2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ACA47C2C6174AB009DB2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96ACA4602C6174A9009DB2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ACA49B2C6178ED009DB2F9 /* SecondView.swift in Sources */,
+				96ACA4972C6177EB009DB2F9 /* TabViewModel.swift in Sources */,
+				96ACA49D2C617979009DB2F9 /* TabBarView.swift in Sources */,
+				96ACA4992C617883009DB2F9 /* FirstView.swift in Sources */,
+				96ACA46A2C6174A9009DB2F9 /* ContentView.swift in Sources */,
+				96ACA4682C6174A9009DB2F9 /* TwoTabsApp.swift in Sources */,
+				96ACA4952C617781009DB2F9 /* TabItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ACA4702C6174AB009DB2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ACA4792C6174AB009DB2F9 /* TwoTabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ACA47A2C6174AB009DB2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ACA4832C6174AB009DB2F9 /* TwoTabsUITests.swift in Sources */,
+				96ACA4852C6174AB009DB2F9 /* TwoTabsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96ACA4762C6174AB009DB2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96ACA4632C6174A9009DB2F9 /* TwoTabs */;
+			targetProxy = 96ACA4752C6174AB009DB2F9 /* PBXContainerItemProxy */;
+		};
+		96ACA4802C6174AB009DB2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96ACA4632C6174A9009DB2F9 /* TwoTabs */;
+			targetProxy = 96ACA47F2C6174AB009DB2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96ACA4862C6174AB009DB2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96ACA4872C6174AB009DB2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96ACA4892C6174AB009DB2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoTabs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.TwoTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96ACA48A2C6174AB009DB2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoTabs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.TwoTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96ACA48C2C6174AB009DB2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.TwoTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoTabs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwoTabs";
+			};
+			name = Debug;
+		};
+		96ACA48D2C6174AB009DB2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.TwoTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoTabs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwoTabs";
+			};
+			name = Release;
+		};
+		96ACA48F2C6174AB009DB2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.TwoTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoTabs;
+			};
+			name = Debug;
+		};
+		96ACA4902C6174AB009DB2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amber.TwoTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoTabs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96ACA45F2C6174A9009DB2F9 /* Build configuration list for PBXProject "TwoTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ACA4862C6174AB009DB2F9 /* Debug */,
+				96ACA4872C6174AB009DB2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ACA4882C6174AB009DB2F9 /* Build configuration list for PBXNativeTarget "TwoTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ACA4892C6174AB009DB2F9 /* Debug */,
+				96ACA48A2C6174AB009DB2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ACA48B2C6174AB009DB2F9 /* Build configuration list for PBXNativeTarget "TwoTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ACA48C2C6174AB009DB2F9 /* Debug */,
+				96ACA48D2C6174AB009DB2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ACA48E2C6174AB009DB2F9 /* Build configuration list for PBXNativeTarget "TwoTabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ACA48F2C6174AB009DB2F9 /* Debug */,
+				96ACA4902C6174AB009DB2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96ACA45C2C6174A9009DB2F9 /* Project object */;
+}
